@@ -1,12 +1,6 @@
-# JavascriptQuiz-
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and score
+This is a code quiz. 
+It uses basic HTML and CSS, and runs with JavaScript. 
+I've used JavaScript to create other HTML elements with certain events. 
+I've commented the JavaScript to explain what is going on. 
+There is a downloadable video in the repo which shows how the quiz works.
+There is a screenshot in the repo to show how the quiz works. 
