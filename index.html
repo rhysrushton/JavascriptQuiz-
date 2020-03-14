@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 
-<html> 
+<html>
 	<head>
-		<title>Homework Week 4 Code Quiz</title>
+		<title>Code Quiz</title>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="style.css">
-		<script src="script.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+		<link href="style.css" rel="stylesheet" type="text/css">
+        <script src = "script.js" type="text/javascript"></script>
 	</head>
-	
+	<body>
+		<div id="nav">
+			<!---Element for highscore. onclick event, run getscore in JS.-->
+			<div class="left">
+                <a onclick="getScore()" href="#"><h4 >View Highscore</h4></a>
+			</div>
+			<!--This is the timer display elevent. See start() in JS for relevant fucntion-->
+			<div class="right">
+				<h4>Time Left: <span id="time">0</span></h4>
+			</div>
+		</div>
+		<!--This is where the questions/answers take place-->>
+		<div id="quiz">
+            <div id="quizBody">      
+                <h1>   
+                    The Coding Quiz
+                </h1>
+                <h3>
+					Press 'Go!' to Begin  
+                </h3>
+                <button onclick="begin()">Go!</button>
+            </div>
+        </div>
+	</body>
 </html>

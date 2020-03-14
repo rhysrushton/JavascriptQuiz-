@@ -1,0 +1,67 @@
+
+/* This stuff is for the top section.  */
+.right {
+    float: right;
+    background-color: black;
+    color: wheat;
+}
+
+.left {
+    float: left;
+    background-color: white;
+    color: black;
+}
+
+#nav {
+    display: block;
+    background-image: url(https://geekflare.com/wp-content/uploads/2019/11/code-review-tools-1200x385.jpg);
+    display: inline-block;
+    width: 98vw;
+
+}
+
+/* This is all for the rest of the page */ 
+
+body {
+    font-family: 'Lobster', cursive;
+    background-color: blanchedalmond;
+    opacity: 0.5;
+    
+}
+
+#quizBody {
+    text-align: center;
+    padding: 12vh;
+}
+
+h4 {
+    padding: 10px 8px 10px 8px;
+    font-family: 'Lobster', cursive;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 16px 10px 16px;
+    font-size: 17px;
+    font-family: 'Lobster', cursive;
+    margin: 4px;
+}
+
+button:hover {
+    transition-duration: 0.2s;
+    background-color: yellow;
+}
+
+#quiz {
+    text-align: center;
+}
+
